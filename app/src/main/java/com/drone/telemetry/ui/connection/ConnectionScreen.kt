@@ -45,11 +45,7 @@ fun ConnectionScreen(
         Button(
             onClick = {
 
-                val portNumber =
-                    if (port.isNotEmpty())
-                        port.toInt()
-                    else
-                        14550
+                val portNumber = port.toIntOrNull() ?: 14550
 
                 onConnect(ip, portNumber)
             }

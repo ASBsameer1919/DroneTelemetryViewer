@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
             } else {
 
-                ConnectionScreen { ip, port ->
+                ConnectionScreen { _, port ->
 
                     viewModel.connect(port)
 
