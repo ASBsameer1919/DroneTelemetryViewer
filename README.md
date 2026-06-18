@@ -23,7 +23,7 @@ The application connects to a telemetry source using an IP address and port numb
 ## 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/ASBsameer1919/DroneTelemetryViewer.git>
 ```
 
 or download the project and open it in Android Studio.
